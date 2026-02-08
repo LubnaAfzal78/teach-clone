@@ -1,0 +1,7 @@
+{
+  "name": "Teach Clone",
+  "description": "A React frontend implementation of the Teach Clone platform, featuring role-based login (Teacher, Student, Admin) and a modern purple gradient aesthetic.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teach Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap');
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      /* Custom Admin Button Styles - Matching PHP implementation */
+      .btn-icon {
+          padding: 10px 15px; /* Increased padding as per PHP snippet */
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+          margin: 0 3px;
+          transition: all 0.2s;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .btn-success {
+          background: #28a745;
+          color: white;
+      }
+
+      .btn-success:hover {
+          opacity: 0.9;
+          transform: scale(1.05);
+      }
+
+      .btn-danger {
+          background: #dc3545;
+          color: white;
+      }
+
+      .btn-danger:hover {
+          opacity: 0.9;
+          transform: scale(1.05);
+      }
+
+      .btn-info {
+          background: #17a2b8;
+          color: white;
+      }
+      
+      .btn-info:hover {
+          opacity: 0.9;
+          transform: scale(1.05);
+      }
+      
+      .btn-icon:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "react-dom": "https://esm.sh/react-dom@^19.2.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
